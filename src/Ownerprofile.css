@@ -1,0 +1,105 @@
+.dogImag{
+
+    height: 100px;
+    width: 100px;
+
+
+}
+
+.divP{
+    font-size: large;
+    font-family: BerkshireSwash;
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    "logo" 10%
+    "header"10%
+    "img" 20%
+    "vacines" 45%
+    "button" 15%
+    ;
+
+  
+}
+
+.ContentorOwnerProfile{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
+
+
+.divH3 {
+
+    grid-area: header;
+    height: 15%;
+    width: 100vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.divVaccines {
+
+    grid-area:"vacines" ;
+    height: 50%;
+    width: 100vw;
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.VaccinesPlan{
+    height: 20%;
+    margin: 0;
+}
+
+.pOP {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding: 0;
+    text-align: justify;
+    font-size: small;
+    font-family: BerkshireSwash;
+}
+
+.divBotao{
+     height: 10%; 
+    grid-area: "button";
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divImagens {
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    border: 1px solid;
+    border-color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+.linkPara{
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.backDiv{
+    width: 100vw;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+}

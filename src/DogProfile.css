@@ -1,0 +1,97 @@
+.divDogProfile{
+
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header" 50% 
+    "form" 50%;
+
+
+}
+
+.dogProfileImg{
+
+
+    height: 40%;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.dogProfileHeader{
+
+    padding-top:15% ;
+}
+
+.dogProfileForm{
+
+    text-align: center;
+}
+
+.select-css{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 55%;
+    /* max-width: 100%; useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+}
+
+[type="file"] {
+    height: 0px;
+    overflow: hidden;
+    width: 0px;
+  }
+  
+  [type="file"] + label {
+    background: #f15d22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 1rem 50px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+
+    background-color: #99c793;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+.btn-2{
+
+    background-color: #99c793;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.btn-2::before{
+    color: #fff;
+    content: "\f382";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 100%;
+    height: 100%;
+    right: 130%;
+    line-height: 3.3;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s;
+}

@@ -1,0 +1,82 @@
+.ContentorRW{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+.mainDivRW {
+    font-size: large;
+    font-family: BerkshireSwash;
+    width: 100%;
+    height: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bussola {
+      animation: App-logo-spin infinite 10s linear;
+      width: 60%;
+    }
+  }
+
+
+
+.divMapRW{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.divRateRW{
+    width: 100vw;
+    height: 15%;
+    display: inline-block;
+}
+
+.divFinishRW{
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pRW{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0 !important;
+    padding: 0;
+    text-align: justify;
+    font-size: larger;
+    font-family: BerkshireSwash;
+}
+
+.imgStar{
+    width: 45px;
+}
+
+.starsRW {
+    display: flex;
+    justify-content: left;
+}
+
+.linkTo{
+    color: black;
+    height: 100%;
+    width: 100%;
+}

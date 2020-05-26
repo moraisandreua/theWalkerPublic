@@ -1,0 +1,57 @@
+.contRegister{
+    height: 100vh !important;
+    display: grid;
+    grid-template-areas: 
+        "regHeader" 50%
+        "form" 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.form{
+
+    justify-content: center;
+}
+
+.registerHeader{
+
+    grid-area: "header";
+    padding-top: 10%;
+    
+
+}
+
+.regForm{
+
+    text-align: center;
+
+}
+
+.dogImage{
+    
+   
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.inputReg{
+
+    width: 200px;
+    height: 40px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    padding-left: 1%;
+}
+
+.butaoReg{
+
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+
+
+
+}

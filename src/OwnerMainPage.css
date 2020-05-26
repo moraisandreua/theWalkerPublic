@@ -1,0 +1,147 @@
+.Contentor{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+.selectiveMap{
+    width: 100vw;
+    height: 60vh;
+}
+
+.walkerPreview{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    background-color: #F8F8F8;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.walkerPreviewOpened{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F8F8F8;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    transition: all .2s cubic-bezier(0, 1, 0.5, 1);
+    overflow-y: scroll;
+}
+
+.openWalker{
+    width: 20%;
+    height: 5px;
+    border-radius: 2em;
+    background-color: lightgrey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendarImage{
+    width: 100%;
+}
+
+.calendarInput{
+    display: none;
+}
+.calendarInputControl{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+
+.paddingLateral5{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.trelaImage{
+    width: 100%;
+}
+
+.rateStarImage{
+    width: 50%;
+}
+
+.walkersName{
+    font-size: 22pt;
+    font-family: BerkshireSwash;
+}
+
+.walkersInformation{
+    font-family: BerkshireSwash;
+    font-size: 18pt;
+    text-align: left;
+}
+
+.inputDate{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+
+.inputDateButton{
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: dodgerblue;
+    border-top: 1px solid lightgray;
+}
+
+.calendarImageInformations{
+    width: 50px;
+    height: 50px;
+}
+
+.calendarImageInformationsContainer{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.buyImageContainer{
+    text-align: right;
+    padding-top: 10px;
+}
+
+.buyImage{
+    height: 50px;
+    width: 50px;
+}
+
+.calendarTableContainer{
+    margin: 15px;
+    height: 40vh;
+    border: 1px solid #171717;
+    border-radius: 10px;
+}
+
+.calendarTableCell{
+    width: calc(100%/7);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float:left;
+    border-bottom: 1px solid black;
+    text-align: center;
+}

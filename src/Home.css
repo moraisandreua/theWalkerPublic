@@ -1,0 +1,46 @@
+.home{
+
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0;
+
+}
+
+.homeItem{
+
+    padding: 10px;
+    margin:  10px;
+    list-style-position:inside;
+    border: 3px solid black;
+    border-radius: 25%;
+    text-align: center;
+    width: 130px;
+
+}
+.homeDiv{
+    height: 100vh;
+    background: url("./images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+
+}
+
+.link {
+    color: black;
+}
+
+.homeItem {
+    background-color: white;
+}
+
+.logoImage{
+
+    align-self: center;
+    justify-self: center;
+    height: 120px;
+    width: 120px;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: white;
+}

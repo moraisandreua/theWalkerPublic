@@ -1,0 +1,17 @@
+.topBar{
+    width:100vw;
+    height: 10vh;
+    box-sizing: border-box;
+    text-align: center;
+    display: block !important;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    font-family: BerkshireSwash;
+    font-size: 18pt;
+}
+
+.topBarLogo{
+    border: 2px solid black;
+    border-radius: 2em;
+    height: 80%;
+}

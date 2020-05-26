@@ -1,0 +1,57 @@
+.link {
+    color: black;
+}
+
+.list{
+    font-size: large;
+    font-family: BerkshireSwash;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: 
+    "walker" 30%
+    "owner" 30%;
+    text-align: center;
+    align-content: center;
+
+
+
+}
+
+.imgChoose {
+    width : 50%;
+}
+
+.listItem{
+
+    border: 1px solid black;
+    text-align: center;
+    margin:2% ;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listItem:hover{
+
+    background-color: rgb(169, 230, 248);
+}
+
+.divChooseImg{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divChooseTxt{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

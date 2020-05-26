@@ -1,0 +1,26 @@
+.OwnerContainer{
+
+    font-family: BerkshireSwash;
+    margin: 2%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 70px;
+    padding: 10px;
+    padding-right:5px ;
+}
+
+h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-family: BerkshireSwash;
+}
+
+.imgDog{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    float: right;
+    margin:2px
+}
